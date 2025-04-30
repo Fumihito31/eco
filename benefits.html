@@ -5,18 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Benefits - Eco Friendly</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 
-  <nav class="navbar navbar-expand-lg fixed-top">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand text-white" href="index.html">
-        <img src="assets/images/logo.png" width="40" alt="Logo"> Eco Friendly
-      </a>
-      <div class="collapse navbar-collapse justify-content-end">
+      <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="Logo" width="40"> Eco Friendly</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
           <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
           <li class="nav-item"><a class="nav-link" href="members.html">Members</a></li>
@@ -25,10 +27,35 @@
     </div>
   </nav>
 
-  <div class="section-content mt-5 pt-5">
-    <h1>Benefits of Being Eco Friendly</h1>
-    <p class="lead">Eco-friendly actions preserve natural resources, reduce pollution, and ensure a healthier planet for future generations.</p>
-  </div>
+  <!-- Content Section -->
+  <section class="benefits-section">
+    <div class="container text-white">
+      <h2 class="section-title">Benefits of a Healthy Environment</h2>
+      <p class="lead">A healthy environment provides numerous benefits that are essential to human well-being and the planet's sustainability. Clean air and water reduce the risk of respiratory and waterborne diseases, while green spaces promote physical activity and mental wellness. A well-maintained natural environment supports biodiversity, which contributes to food security and ecological balance. Additionally, a healthy environment enhances quality of life, supports economic development through tourism and agriculture, and helps combat the effects of climate change. Ultimately, a clean and safe environment is foundational to a healthier, more resilient society.</p>
+
+      <div class="row mt-5">
+        <div class="col-md-6">
+          <ul class="list-benefits">
+            <li>∘ Improved air quality – reduced pollution prevents respiratory issues like asthma.</li>
+            <li>∘ Clean water sources – protected rivers reduce diseases like cholera.</li>
+            <li>∘ Access to green spaces – parks promote physical activity and reduce stress.</li>
+            <li>∘ Enhanced biodiversity – pollinators like bees support agriculture.</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <ul class="list-benefits">
+            <li>∘ Climate regulation – trees reduce urban heat effects.</li>
+            <li>∘ Better mental health – nature improves mood and lowers anxiety.</li>
+            <li>∘ Sustainable livelihoods – eco-tourism and farming depend on healthy ecosystems.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="image-container mt-5">
+        <img src="assets/images/benefits.jpg" alt="Nature Benefits" class="img-fluid rounded shadow">
+      </div>
+    </div>
+  </section>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
