@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  padding-top: 70px; /* Adjust based on navbar height */
+  padding: 0px; /* Adjust based on navbar height */
   color: white;
   background-color: #000;
   background-image: url('../assets/images/background.jpg');
@@ -35,4 +35,28 @@ body {
   background-color: #111;
   color: #eee;
   text-align: center;
+}
+
+/* Card that wraps the page content */
+.content-card {
+  background: rgba(0, 0, 0, 0.6); /* semi-transparent dark background */
+  border: 2px solid #00ff99; /* neon green border */
+  backdrop-filter: blur(10px); /* nice blur effect behind */
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+}
+
+/* Benefits list styles */
+.list-benefits {
+  list-style: none;
+  padding: 0;
+}
+
+.list-benefits li {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+section {
+  padding-top: 120px;
+  padding-bottom: 50px;
 }
