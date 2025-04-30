@@ -1,0 +1,46 @@
+.members-section {
+    min-height: 100vh;
+    padding-top: 100px;
+    background: #121212;
+  }
+  
+  .group-photo-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .hotspot {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.0); /* invisible */
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .tooltip-card {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 14px;
+    pointer-events: none;
+    transition: all 0.2s ease;
+    z-index: 10;
+  }
+  
+  .tooltip-card h5 {
+    margin: 0 0 5px 0;
+    font-size: 18px;
+  }
+  
+  .tooltip-card p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .d-none {
+    display: none;
+  }
+  
